@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#content {
+    display: flex;
+    color: gray;
+}
+
+#recent_links {
+    padding: 0px 0px 0px 10px;
+}
+
+#content #recent_links article {
+    display: flex;
+    flex-grow: 2;
+}
+
+#recent_links article > div {
+    position: relative;
+
+}
+
+#recent_links article {
+    margin: 0px 100px 20px 0px;
+}
+
+#recent_links article h3 {
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    padding: 0px 0px 0px 10px;
+    color: black;
+}
+#recent_links article p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 10px;
+}
+
+#recent_links article time {
+    color: blue;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+#content #most_viewed {
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+#content #most_viewed article {
+    position: relative;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#most_viewed article > div {
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 20px 20px 10px;
+}
+
+#most_viewed article img {
+    filter: brightness(50%);
+}
+
+#most_viewed article time {
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 0px;
+}
+
+
