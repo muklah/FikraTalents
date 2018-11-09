@@ -57,8 +57,10 @@
 
 #content #most_viewed article {
     position: relative;
+    display: flex;
     margin-bottom: 15px;
     color: white;
+    top: 0px;
 }
 
 #most_viewed article > div {
@@ -72,8 +74,9 @@
 }
 
 #most_viewed article time {
+    position: absolute;
     font-family: 'Source Sans Pro', sans-serif;
-    top: 0px;
+    padding: 10px 20px 20px 10px;
 }
 
 
